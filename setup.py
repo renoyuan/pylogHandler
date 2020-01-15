@@ -10,8 +10,8 @@ from setuptools import setup, find_packages
 
 setup(
     name="pylogHandler",
-    version="0.1.1",
-    # keywords=("pip", "pathtool", "timetool", "magetool", "mage"),
+    version="0.1.3",
+    # keywords=("pip", "pathtool", "timetool", "magetool", "log", "renoyuan"),
     description="renoyuan log",
     long_description="renoyuan log",
     license="MIT Licence",
@@ -20,7 +20,7 @@ setup(
     author="renoyuan",
     author_email="renoyuan@foxmail.com",
 
-    packages=find_packages(),
+    packages=['pylogHandler'],
     include_package_data=True,
     platforms="any",
     # install_requires=[]
